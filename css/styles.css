@@ -1,0 +1,97 @@
+/********************** Tag style **********************/
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    margin: 20px;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 12vmin;
+    margin: 6vmin 0;
+}
+
+img {
+    height: auto;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+hr {
+    height: 0;
+    width: 5%;
+    border: none;
+    border-top: 10px dotted #62B68E;
+    margin: 40px auto;
+    background-color: white;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #62B68E;
+}
+/********************** Class style **********************/
+
+
+.header_picture {
+    width: 80vmin;
+    margin-bottom: 10vmin;
+}
+.top_div {
+    background-color: #62B68E;
+    padding:50px;
+    margin-bottom: 50px;
+}
+
+.top_div p {
+    font-size: 4vmin;
+}
+
+.profile_picture
+{
+    width: 200px;
+}
+
+.middle_div {
+    margin:auto;
+    width: 60%;
+}
+.middle_div p {
+    line-height: 2;
+}
+
+.skill-row {
+    margin-top: 7vh;
+}
+
+.bottom_div {
+    margin-bottom: 5vh;
+}
+
+.btn {
+    background-color: #62B68E;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+
+.btn:hover {
+    background-color: #468566;
+}
+
+.bottom_div a:hover {
+    color: #468566;
+    border-bottom: #468566 1px solid;
+}
