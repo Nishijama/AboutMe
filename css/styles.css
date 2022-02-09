@@ -16,7 +16,7 @@ body {
 h1 {
     font-family: 'Sacramento', cursive;
     font-size: 12vmin;
-    margin: 6vmin 0;
+    margin: 6vmin 0 3vmin 0;
 }
 
 img {
@@ -45,6 +45,7 @@ h2 {
 
 
 .header_picture {
+    display: inline;
     width: 80vmin;
     margin-bottom: 10vmin;
 }
@@ -55,12 +56,14 @@ h2 {
 }
 
 .top_div p {
-    font-size: 4vmin;
+    font-size: 3vmin;
+    display: inline-block;
+    text-align: left;
 }
 
 .profile_picture
 {
-    width: 200px;
+    width: 25vmin;
 }
 
 .middle_div {
@@ -95,3 +98,33 @@ h2 {
     color: #468566;
     border-bottom: #468566 1px solid;
 }
+
+
+/* /CSS and JS code for animatied text was 'borrowed' from Tobias - https://codepen.io/Tbgse/ */
+.subtitle {
+    text-align: left;
+    width: 25vmin;
+    padding-left: 6vmin;
+    margin: auto;
+}
+
+.console-container {
+ 
+    font-size:4vmin;
+    text-align:left;
+    display:inline-block;
+  }
+
+  .console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+
+/********************** ID style **********************/
+  #animated_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vmin;
+    text-align: left;
+  }
